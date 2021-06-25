@@ -5,7 +5,7 @@ import logo from "./timescale.png";
 
 
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=7315ec59ea2264da1fa4f4eb8d647853&page=1";
-const IMG_API = "https://image.tmdb.org/t/p/w1280";
+
 const SEARCH_API = "https://api.themoviedb.org/3/search/movie?api_key=7315ec59ea2264da1fa4f4eb8d647853&query=";
 
 function App() {
@@ -34,7 +34,6 @@ function App() {
 	};
 
 	const handleOnChange = (e) => {
-		console.log(e.target.value);
 		setSearchTerm(e.target.value);
 	}
 
