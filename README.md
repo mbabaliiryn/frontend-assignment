@@ -16,6 +16,10 @@ display movies in a grid and give the user more information when they click on
 one of the posters. To fetch the movie info, we will be using [The Movie DB][movieDB]
 and will include the API key for you to add to the `.env` in the initial email.
 
+## Live demo
+
+[Check it out](https://loving-jennings-c87397.netlify.app/)
+
 ### Features
 
 The main features that should be implemented
